@@ -80,10 +80,10 @@ Authored by Superteam Ukraine. Built in Kyiv.
 ### Links (fill in before submitting)
 
 - **GitHub repo (developer toolkit + full submission):**
-  `TODO: paste the URL returned by gh repo create — see toolkit/starter/PUBLISH.md`
+  `https://github.com/benzaid32/solana-frontend-educational-module`
 
 - **Live Devnet demo (optional but recommended):**
-  `TODO: paste Vercel URL after deploying the starter`
+  `TODO: click the "Deploy with Vercel" button in toolkit/starter/README.md and paste the URL here`
 
 - **Lecture 1 slides (PDF or Google Slides):**
   `TODO: paste URL`
