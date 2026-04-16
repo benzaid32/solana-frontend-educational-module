@@ -1,11 +1,14 @@
 # Solana Frontend Development Educational Module
 
+[![Live demo](https://img.shields.io/badge/Live%20demo-starter--beta--eight.vercel.app-000000?logo=vercel)](https://starter-beta-eight.vercel.app)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 [![Solana: Devnet](https://img.shields.io/badge/Solana-Devnet-9945FF)](https://faucet.solana.com)
 [![Made in Kyiv](https://img.shields.io/badge/Made%20in-Kyiv-0057B7?labelColor=FFD500&color=0057B7)](https://superteam.fun/ukraine)
 
 Submission for the Superteam Ukraine bounty
 **"Solana Frontend Development Educational Module"**.
+
+**Live starter on Devnet:** <https://starter-beta-eight.vercel.app>
 
 Everything the bounty asks for is in this folder — nothing outside it is
 part of the submission.

@@ -81,8 +81,9 @@ Authored by Superteam Ukraine. Built in Kyiv.
 - **GitHub repo (developer toolkit + full submission):**
   `https://github.com/benzaid32/solana-frontend-educational-module`
 
-- **Live Devnet demo (optional but recommended):**
-  `TODO: click the "Deploy with Vercel" button in toolkit/starter/README.md and paste the URL here`
+- **Live Devnet demo (Vercel):**
+  <https://starter-beta-eight.vercel.app>
+  (connects Phantom / Solflare / Ledger on Devnet, real SOL transfers confirmed)
 
 - **Lecture 1 slides:** `https://github.com/benzaid32/solana-frontend-educational-module/blob/main/decks/lecture-1.pdf`
 - **Lecture 2 slides:** `https://github.com/benzaid32/solana-frontend-educational-module/blob/main/decks/lecture-2.pdf`
@@ -125,8 +126,8 @@ Status as of the last commit on `main`:
 - [x] GitHub URL + 4 deck URLs filled in below.
 - [ ] **You:** connect a wallet and run one Devnet transfer end-to-end
       as a final smoke test (optional but recommended).
-- [ ] **You:** (optional) click the Vercel deploy button in
-      `toolkit/starter/README.md` and paste the preview URL below.
+- [x] Vercel deployment live at <https://starter-beta-eight.vercel.app>
+      (status: READY, static prerender, public).
 - [ ] **You:** paste the text from this file into Superteam Earn → Submit.
 
 ## Quick facts (for the sponsor comment, if asked)

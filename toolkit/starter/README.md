@@ -1,5 +1,6 @@
 # Solana Frontend Starter
 
+[![Live demo](https://img.shields.io/badge/Live%20demo-starter--beta--eight.vercel.app-000000?logo=vercel)](https://starter-beta-eight.vercel.app)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 [![Solana: Devnet](https://img.shields.io/badge/Solana-Devnet-9945FF)](https://faucet.solana.com)
 [![Made in Kyiv](https://img.shields.io/badge/Made%20in-Kyiv-0057B7?labelColor=FFD500&color=0057B7)](https://superteam.fun/ukraine)
@@ -7,6 +8,9 @@
 Plug-and-play Solana frontend starter for hackathon teams. Built for the
 bounty's usability criterion: go from a clean clone to a working dApp on
 Devnet in under 10 minutes.
+
+> **Live on Devnet:** <https://starter-beta-eight.vercel.app>
+> — connect Phantom / Solflare / Ledger, run a real SOL transfer, inspect any account.
 
 > [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fbenzaid32%2Fsolana-frontend-educational-module&root-directory=toolkit%2Fstarter&env=NEXT_PUBLIC_SOLANA_CLUSTER,NEXT_PUBLIC_SOLANA_RPC_PRIMARY,NEXT_PUBLIC_SOLANA_RPC_FALLBACK&envDescription=Solana%20RPC%20configuration.%20See%20.env.example%20for%20defaults.&envLink=https%3A%2F%2Fgithub.com%2Fbenzaid32%2Fsolana-frontend-educational-module%2Fblob%2Fmain%2Ftoolkit%2Fstarter%2F.env.example&project-name=solana-frontend-starter&repository-name=solana-frontend-starter)
 
