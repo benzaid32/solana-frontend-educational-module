@@ -41,22 +41,27 @@ export function SiteFooter() {
         </div>
 
         <div className="mt-10 flex flex-col items-start justify-between gap-6 border-t border-paper-line pt-8 sm:flex-row sm:items-center">
-          <a
-            href="https://ua.superteam.fun"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Superteam Ukraine — open ua.superteam.fun"
-            className="inline-flex items-center opacity-80 transition hover:opacity-100"
-          >
-            <Image
-              src="/superteam-ukraine-logo.svg"
-              alt="Superteam Ukraine"
-              width={210}
-              height={56}
-              priority={false}
-              className="h-9 w-auto"
-            />
-          </a>
+          <div className="flex items-center gap-3">
+            <span className="text-[11px] uppercase tracking-[0.18em] text-ink-muted">
+              In partnership with
+            </span>
+            <a
+              href="https://ua.superteam.fun"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Superteam Ukraine — open ua.superteam.fun"
+              className="inline-flex items-center rounded-md bg-ink px-4 py-2 transition hover:bg-ink/90"
+            >
+              <Image
+                src="/superteam-ukraine-logo.svg"
+                alt="Superteam Ukraine"
+                width={210}
+                height={56}
+                priority={false}
+                className="h-6 w-auto"
+              />
+            </a>
+          </div>
           <p className="text-[11px] uppercase tracking-[0.18em] text-ink-muted">
             Superteam Ukraine · Solana Frontend Educational Module · 2026
           </p>
