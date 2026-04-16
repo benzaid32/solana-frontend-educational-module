@@ -1,0 +1,35 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Next.js (defensive — toolkit/starter/.gitignore also covers this)
+.next/
+out/
+next-env.d.ts
+
+# Build / coverage
+dist/
+build/
+coverage/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Editor / OS
+.vscode/*
+!.vscode/settings.json
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Marp exports (rebuild on demand)
+decks/*.pdf
+decks/*.pptx
+decks/*.html
+
+# Vercel
+.vercel
