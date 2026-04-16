@@ -29,8 +29,8 @@ coverage/
 Thumbs.db
 *.swp
 
-# Marp exports (rebuild on demand)
-decks/*.pdf
+# Marp exports — keep PDFs committed so judges can view them on GitHub
+# (pptx/html are disposable, rebuild on demand via marp-cli)
 decks/*.pptx
 decks/*.html
 

@@ -85,12 +85,10 @@ Authored by Superteam Ukraine. Built in Kyiv.
 - **Live Devnet demo (optional but recommended):**
   `TODO: click the "Deploy with Vercel" button in toolkit/starter/README.md and paste the URL here`
 
-- **Lecture 1 slides (PDF or Google Slides):**
-  `TODO: paste URL`
-
-- **Lecture 2 slides:** `TODO: paste URL`
-- **Lecture 3 slides:** `TODO: paste URL`
-- **Lecture 4 slides:** `TODO: paste URL`
+- **Lecture 1 slides:** `https://github.com/benzaid32/solana-frontend-educational-module/blob/main/decks/lecture-1.pdf`
+- **Lecture 2 slides:** `https://github.com/benzaid32/solana-frontend-educational-module/blob/main/decks/lecture-2.pdf`
+- **Lecture 3 slides:** `https://github.com/benzaid32/solana-frontend-educational-module/blob/main/decks/lecture-3.pdf`
+- **Lecture 4 slides:** `https://github.com/benzaid32/solana-frontend-educational-module/blob/main/decks/lecture-4.pdf`
 
 ## What lives where
 
