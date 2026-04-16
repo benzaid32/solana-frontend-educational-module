@@ -241,7 +241,10 @@ section.cover .kicker::before {
   vertical-align: 2px;
 }
 
-/* Section divider */
+/* Section divider — dark slides.
+   Every inline text element must be explicitly inverted here, because
+   the default rules for p/li/strong/code/em/a pin color to var(--ink)
+   which would be invisible on the dark background. */
 section.divider {
   background: var(--ink);
   color: var(--paper);
@@ -250,8 +253,15 @@ section.divider {
 
 section.divider h1,
 section.divider h2,
-section.divider h3 {
+section.divider h3,
+section.divider p,
+section.divider li,
+section.divider blockquote {
   color: var(--paper);
+}
+
+section.divider h4 {
+  color: var(--wheat);
 }
 
 section.divider::before,
@@ -259,8 +269,39 @@ section.divider::after {
   color: rgba(244, 241, 232, 0.6);
 }
 
-section.divider h4 {
+/* Strong: swap the wheat-underline highlight for a pure wheat color pop,
+   which reads cleanly on dark backgrounds without needing a background. */
+section.divider strong {
   color: var(--wheat);
+  background: none;
+  padding: 0;
+}
+
+/* Emphasis: azure is too dim on dark navy → brighten to wheat. */
+section.divider em {
+  color: var(--wheat);
+}
+
+/* Inline code: keep it mono and readable on dark. */
+section.divider code {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  color: var(--paper);
+}
+
+/* Links on dark: wheat with wheat underline. */
+section.divider a {
+  color: var(--wheat);
+}
+
+/* Callouts and list markers on dark. */
+section.divider li::marker {
+  color: var(--wheat);
+}
+
+section.divider .label,
+section.divider .footnote {
+  color: rgba(244, 241, 232, 0.7);
 }
 
 /* Quote / highlight */
