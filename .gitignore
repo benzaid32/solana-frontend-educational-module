@@ -8,6 +8,9 @@ yarn-error.log
 out/
 next-env.d.ts
 
+# TypeScript incremental build cache
+*.tsbuildinfo
+
 # Build / coverage
 dist/
 build/
