@@ -1,5 +1,8 @@
 # Solana Frontend Development Educational Module
 
+[![CI](https://github.com/benzaid32/solana-frontend-educational-module/actions/workflows/ci.yml/badge.svg)](https://github.com/benzaid32/solana-frontend-educational-module/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+
 Submission for the Superteam Ukraine bounty
 **"Solana Frontend Development Educational Module"**.
 
@@ -17,34 +20,34 @@ part of the submission.
 ## Repository layout
 
 ```
-submission-package/
-├── README.md                       ← you are here
-├── LICENSE                         ← MIT
+submission-package/              ← pushed as github.com/benzaid32/solana-frontend-educational-module
+├── README.md                    ← you are here
+├── LICENSE                      ← MIT
+├── .github/workflows/ci.yml     ← typecheck + lint + build on every push
 │
-├── decks/                          ← 4 slide decks (BOUNTY)
-│   ├── lecture-1.md ... lecture-4.md
-│   ├── theme/kyiv-solana.css       ← shared editorial theme
-│   └── README.md                   ← 3 ways to export (web, VS Code, CLI)
+├── decks/                       ← 4 slide decks (BOUNTY)
+│   ├── lecture-1.md … lecture-4.md
+│   ├── theme/kyiv-solana.css    ← shared editorial theme
+│   └── README.md                ← 3 ways to export (web, VS Code, CLI)
 │
-├── lectures/                       ← longform teaching notes (BOUNTY)
+├── lectures/                    ← longform teaching notes (BOUNTY)
 │   └── lecture-{1..4}-*.md
 │
-├── toolkit/starter/                ← plug-and-play Next.js app (BOUNTY)
-│   ├── README.md                   ← run / deploy / adopt
-│   ├── PUBLISH.md                  ← publish to GitHub in 30 seconds
-│   ├── LICENSE                     ← MIT
-│   ├── .github/workflows/ci.yml    ← typecheck + lint + build on every push
-│   ├── .env.example · .nvmrc · .gitignore
+├── toolkit/starter/             ← plug-and-play Next.js app (BOUNTY)
+│   ├── README.md                ← run / deploy / adopt (Vercel button inside)
+│   ├── PUBLISH.md               ← standalone publish guide (optional)
+│   ├── LICENSE                  ← MIT
+│   ├── .env.example · .nvmrc · .gitignore · .eslintrc.json
 │   ├── next.config.mjs · tailwind.config.ts · tsconfig.json
 │   └── src/
 │       ├── app/{page,transfer,account,layout}.tsx
 │       ├── components/{providers,site-header,tx-status,…}.tsx
 │       └── lib/{cluster,connection,transactions,utils}.ts
 │
-├── quizzes/quiz-1.md ... quiz-4.md          ← 4 quizzes (BOUNTY)
-├── assignments/assignment-1.md ... 4.md     ← 4 assignments (BOUNTY)
+├── quizzes/quiz-1.md … quiz-4.md        ← 4 quizzes (BOUNTY)
+├── assignments/assignment-1.md … 4.md   ← 4 assignments (BOUNTY)
 │
-└── submission/SUBMISSION.md        ← paste-ready Earn form answers + final checklist
+└── submission/SUBMISSION.md     ← paste-ready Earn form answers + final checklist
 ```
 
 ## Judging criteria coverage (just the facts)

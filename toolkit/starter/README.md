@@ -1,6 +1,6 @@
 # Solana Frontend Starter
 
-[![CI](https://img.shields.io/badge/CI-typecheck%20%C2%B7%20lint%20%C2%B7%20build-informational)](./.github/workflows/ci.yml)
+[![CI](https://github.com/benzaid32/solana-frontend-educational-module/actions/workflows/ci.yml/badge.svg)](https://github.com/benzaid32/solana-frontend-educational-module/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 [![Solana: Devnet](https://img.shields.io/badge/Solana-Devnet-9945FF)](https://faucet.solana.com)
 [![Made in Kyiv](https://img.shields.io/badge/Made%20in-Kyiv-0057B7?labelColor=FFD500&color=0057B7)](https://superteam.fun/ukraine)
@@ -9,10 +9,7 @@ Plug-and-play Solana frontend starter for hackathon teams. Built for the
 bounty's usability criterion: go from a clean clone to a working dApp on
 Devnet in under 10 minutes.
 
-> [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsuperteam-ukraine%2Fsolana-frontend-starter&env=NEXT_PUBLIC_SOLANA_CLUSTER,NEXT_PUBLIC_SOLANA_RPC_PRIMARY,NEXT_PUBLIC_SOLANA_RPC_FALLBACK&envDescription=Solana%20RPC%20configuration.%20See%20.env.example%20for%20defaults.&envLink=https%3A%2F%2Fgithub.com%2Fsuperteam-ukraine%2Fsolana-frontend-starter%2Fblob%2Fmain%2F.env.example&project-name=solana-frontend-starter&repository-name=solana-frontend-starter)
->
-> (After you publish the starter to GitHub, update the `repository-url`
-> above with your fork / org name.)
+> [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fbenzaid32%2Fsolana-frontend-educational-module&root-directory=toolkit%2Fstarter&env=NEXT_PUBLIC_SOLANA_CLUSTER,NEXT_PUBLIC_SOLANA_RPC_PRIMARY,NEXT_PUBLIC_SOLANA_RPC_FALLBACK&envDescription=Solana%20RPC%20configuration.%20See%20.env.example%20for%20defaults.&envLink=https%3A%2F%2Fgithub.com%2Fbenzaid32%2Fsolana-frontend-educational-module%2Fblob%2Fmain%2Ftoolkit%2Fstarter%2F.env.example&project-name=solana-frontend-starter&repository-name=solana-frontend-starter)
 
 ## What you get
 
@@ -89,13 +86,14 @@ src/
     transactions.ts        # Transaction builder + confirm-with-timeout
     utils.ts
 
-.github/workflows/ci.yml   # typecheck + lint + build on every push
 .env.example
 .nvmrc                     # Node 20
 LICENSE                    # MIT
-PUBLISH.md                 # publish to GitHub in 30 seconds
-DEMO-SCRIPT.md             # 2-minute demo video shot list
+PUBLISH.md                 # standalone publish guide (optional)
 ```
+
+CI lives at the repo root (`.github/workflows/ci.yml`) and runs
+`typecheck → lint → build` against this folder on every push.
 
 ## Quality gates
 
