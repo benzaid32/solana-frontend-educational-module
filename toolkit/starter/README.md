@@ -1,16 +1,15 @@
 # Solana Frontend Starter
 
-[![Live demo](https://img.shields.io/badge/Live%20demo-starter--beta--eight.vercel.app-000000?logo=vercel)](https://starter-beta-eight.vercel.app)
+[![Live demo](https://img.shields.io/badge/Live%20demo-kyiv--solana.vercel.app-000000?logo=vercel)](https://kyiv-solana.vercel.app)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 [![Solana: Devnet](https://img.shields.io/badge/Solana-Devnet-9945FF)](https://faucet.solana.com)
-[![Made in Kyiv](https://img.shields.io/badge/Made%20in-Kyiv-0057B7?labelColor=FFD500&color=0057B7)](https://superteam.fun/ukraine)
+[![Made in Kyiv](https://img.shields.io/badge/Made%20in-Kyiv-0057B7?labelColor=FFD500&color=0057B7)](https://ua.superteam.fun)
 
-Plug-and-play Solana frontend starter for hackathon teams. Built for the
-bounty's usability criterion: go from a clean clone to a working dApp on
-Devnet in under 10 minutes.
+A plug-and-play Solana frontend starter for hackathon teams. From a
+clean clone to a signed, confirmed Devnet transfer in under ten minutes.
 
-> **Live on Devnet:** <https://starter-beta-eight.vercel.app>
-> — connect Phantom / Solflare / Ledger, run a real SOL transfer, inspect any account.
+**Live on Devnet:** <https://kyiv-solana.vercel.app> — connect Phantom,
+Solflare, or Ledger, send a real SOL transfer, inspect any account.
 
 > [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fbenzaid32%2Fsolana-frontend-educational-module&root-directory=toolkit%2Fstarter&env=NEXT_PUBLIC_SOLANA_CLUSTER,NEXT_PUBLIC_SOLANA_RPC_PRIMARY,NEXT_PUBLIC_SOLANA_RPC_FALLBACK&envDescription=Solana%20RPC%20configuration.%20See%20.env.example%20for%20defaults.&envLink=https%3A%2F%2Fgithub.com%2Fbenzaid32%2Fsolana-frontend-educational-module%2Fblob%2Fmain%2Ftoolkit%2Fstarter%2F.env.example&project-name=solana-frontend-starter&repository-name=solana-frontend-starter)
 
@@ -24,8 +23,7 @@ Devnet in under 10 minutes.
 - Account inspector page that reads the canonical five account fields live
 - Environment-based primary and fallback RPC endpoints
 - Priority fee picker (off / auto / manual) with an in-UI explanation
-- Solana Explorer links everywhere a user cares about
-- No mock data
+- Solana Explorer links on every confirmed transaction and inspected account
 
 ## Requirements
 
@@ -48,8 +46,8 @@ npm run dev
 # open http://localhost:3000
 ```
 
-That is the zero-to-dApp path. Connect a wallet, grab some Devnet SOL from the
-faucet, and send it to any address.
+Connect a wallet, fund it from the Devnet faucet, and send a transfer to any
+address. That's the full loop.
 
 ## Environment variables
 
