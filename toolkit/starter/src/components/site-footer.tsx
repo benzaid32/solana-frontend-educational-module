@@ -22,6 +22,14 @@ export function SiteFooter() {
             <Link href="/transfer" className="hover:text-ink">Transfer</Link>
             <Link href="/account" className="hover:text-ink">Inspector</Link>
             <a
+              href="https://github.com/benzaid32/solana-frontend-educational-module"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-ink"
+            >
+              GitHub
+            </a>
+            <a
               href="https://solana.com/docs/frontend"
               target="_blank"
               rel="noreferrer"
@@ -62,9 +70,36 @@ export function SiteFooter() {
               />
             </a>
           </div>
-          <p className="text-[11px] uppercase tracking-[0.18em] text-ink-muted">
-            Superteam Ukraine · Solana Frontend Educational Module · 2026
-          </p>
+
+          <div className="flex items-center gap-4">
+            <div className="flex items-center gap-3">
+              <a
+                href="https://github.com/benzaid32/solana-frontend-educational-module"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Module source on GitHub"
+                className="text-ink-muted transition hover:text-ink"
+              >
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
+                  <path d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.86 10.92c.57.1.78-.25.78-.55v-1.93c-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.27-1.69-1.27-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.24 3.34.95.1-.74.4-1.25.73-1.54-2.56-.29-5.25-1.28-5.25-5.7 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.62 1.59.23 2.76.11 3.05.74.81 1.18 1.84 1.18 3.1 0 4.43-2.7 5.41-5.27 5.69.41.35.77 1.04.77 2.1v3.11c0 .3.21.66.79.55A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z"/>
+                </svg>
+              </a>
+              <a
+                href="https://x.com/superteamukr"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Superteam Ukraine on X"
+                className="text-ink-muted transition hover:text-ink"
+              >
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>
+              </a>
+            </div>
+            <p className="text-[11px] uppercase tracking-[0.18em] text-ink-muted">
+              Superteam Ukraine · 2026
+            </p>
+          </div>
         </div>
       </div>
     </footer>
