@@ -1,6 +1,5 @@
 # Solana Frontend Starter
 
-[![CI](https://github.com/benzaid32/solana-frontend-educational-module/actions/workflows/ci.yml/badge.svg)](https://github.com/benzaid32/solana-frontend-educational-module/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 [![Solana: Devnet](https://img.shields.io/badge/Solana-Devnet-9945FF)](https://faucet.solana.com)
 [![Made in Kyiv](https://img.shields.io/badge/Made%20in-Kyiv-0057B7?labelColor=FFD500&color=0057B7)](https://superteam.fun/ukraine)
@@ -105,8 +104,9 @@ npm run lint        # next lint      → zero warnings
 npm run build       # next build     → 4 routes prerender as static
 ```
 
-All three pass locally and on GitHub Actions on a clean install. See
-`.github/workflows/ci.yml`.
+All three pass on a clean `npm install`. The same three commands are
+codified as the GitHub Actions workflow at `.github/workflows/ci.yml`,
+which runs on every push and pull request to `main`.
 
 ## What each example teaches
 

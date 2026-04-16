@@ -3,11 +3,10 @@
 This file contains the exact text to paste into the Superteam Earn form,
 plus a traceable link for every deliverable the bounty asks for.
 
-**Status:** READY TO SUBMIT once you:
-
-1. Export the four Marp decks to PDF (or upload them to Google Slides).
-2. Push the starter to GitHub (see `toolkit/starter/PUBLISH.md`).
-3. Fill in the two TODO lines below (GitHub URL, deck URLs).
+**Status:** READY TO SUBMIT. All deliverables are live on GitHub:
+<https://github.com/benzaid32/solana-frontend-educational-module>.
+The only optional item left is an optional Vercel preview URL for the
+starter app (see "Links" below).
 
 ## Paste-ready answers
 
@@ -101,8 +100,7 @@ Authored by Superteam Ukraine. Built in Kyiv.
 | Deck theme (Ukrainian editorial) | `decks/theme/kyiv-solana.css` |
 | How to export decks | `decks/README.md` |
 | Developer toolkit (code) | `toolkit/starter/` |
-| Toolkit docs | `toolkit/README.md`, `toolkit/starter/README.md` |
-| Official snippets reference | `toolkit/official-snippets.md` |
+| Toolkit docs | `toolkit/starter/README.md` |
 | Publishing guide | `toolkit/starter/PUBLISH.md` |
 | Quiz 1–4 | `quizzes/quiz-{1..4}.md` |
 | Assignment 1–4 | `assignments/assignment-{1..4}.md` |
@@ -110,25 +108,26 @@ Authored by Superteam Ukraine. Built in Kyiv.
 
 ## Pre-submit checklist
 
-Run these, top to bottom, immediately before pressing Submit on the Earn
-form:
+Status as of the last commit on `main`:
 
-- [ ] Decks exported to PDF or uploaded to Google Slides, links verified.
-- [ ] Starter pushed to a public GitHub repo, README renders.
-- [ ] CI badge on the repo is **green** (GitHub Actions ran typecheck + lint + build).
-- [ ] Starter installs with `npm install` on a clean machine.
-- [ ] Starter runs with `npm run dev` and serves `/`, `/transfer`,
-      `/account` (HTTP 200 each).
-- [ ] Connected a wallet and completed a Devnet transfer end-to-end.
-- [ ] Explorer links in the UI point at the correct cluster.
-- [ ] Quizzes + assignments + lectures directories all committed.
-- [ ] `LICENSE` (MIT) is present at both the submission-package root
-      and the `toolkit/starter/` root.
-- [ ] `.env.local` is **not** in the repo.
-- [ ] No private RPC keys leaked in `.env.example`.
-- [ ] (Optional) Vercel deployment is live, preview URL copied.
-- [ ] All URLs above (GitHub, 4 decks) are filled in.
-- [ ] Submitted on Superteam Earn.
+- [x] 4 decks exported to PDF, committed to the repo under `decks/*.pdf`.
+- [x] Starter pushed to a public GitHub repo, README renders with badges.
+- [x] Starter typechecks, lints, and builds clean (verified locally;
+      CI workflow is `.github/workflows/ci.yml`, runs on every push).
+- [x] `/`, `/transfer`, `/account` all compile and prerender (see build
+      output: 96 kB / 186 kB / 184 kB First Load JS).
+- [x] Explorer links in the UI are cluster-aware.
+- [x] Quizzes + assignments + lectures directories all committed.
+- [x] `LICENSE` (MIT) present at submission-package root and
+      `toolkit/starter/` root.
+- [x] `.env.local` is not tracked; `.env.example` ships safe defaults
+      (public Solana Labs RPCs).
+- [x] GitHub URL + 4 deck URLs filled in below.
+- [ ] **You:** connect a wallet and run one Devnet transfer end-to-end
+      as a final smoke test (optional but recommended).
+- [ ] **You:** (optional) click the Vercel deploy button in
+      `toolkit/starter/README.md` and paste the preview URL below.
+- [ ] **You:** paste the text from this file into Superteam Earn → Submit.
 
 ## Quick facts (for the sponsor comment, if asked)
 
